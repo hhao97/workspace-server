@@ -31,7 +31,7 @@ public class UserController {
      * 登录
      */
     @PostMapping("/logIn")
-    public R<Boolean> logIn(@Validated @RequestBody UserLogInParam userLogInParam) {
+    public R<String> logIn(@Validated @RequestBody UserLogInParam userLogInParam) {
         return R.ok(userService.logIn(userLogInParam));
     }
 

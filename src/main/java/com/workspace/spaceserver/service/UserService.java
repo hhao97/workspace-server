@@ -8,5 +8,5 @@ import com.workspace.spaceserver.params.UserSignInParam;
 public interface UserService extends IService<User> {
     Boolean signIn(UserSignInParam userSignInParam);
 
-    Boolean logIn(UserLogInParam userLogInParam);
+    String logIn(UserLogInParam userLogInParam);
 }

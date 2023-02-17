@@ -4,3 +4,5 @@ spring:
     url: jdbc:mysql://gz-cdb-f3as145r.sql.tencentcdb.com:58965/runcd_statistic?serverTimezone=Asia/Shanghai&characterEncoding=utf8&allowPublicKeyRetrieval=true&useSSL=false&autoReconnect=true
     username: runcd
     password: rcdtest2021
+
+jwtKey: jidojasidojsaidjoasjdoasdasd2131
